@@ -1,12 +1,17 @@
 <template>
-  <v-app-bar app dark dense floating>
-  <v-app-bar-nav-icon @click="toggleMenu"></v-app-bar-nav-icon>
-  <v-toolbar-title v-if="!drawer" class="grey--text">
-    <span>bc</span>
-    <span class="font-weight-bold">ferreira</span>
-  </v-toolbar-title>
-  <v-spacer></v-spacer>
-</v-app-bar>
+  <v-app-bar app dark dense>
+    <v-app-bar-nav-icon @click="toggleMenu"></v-app-bar-nav-icon>
+    <v-toolbar-title v-if="!drawer" class="grey--text">
+      <span>bc</span>
+      <span class="font-weight-bold">ferreira</span>
+    </v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-switch
+      dense
+      v-model="$vuetify.theme.dark"
+      label="Dark"
+    ></v-switch>
+  </v-app-bar>
 </template>
 
 <script>
