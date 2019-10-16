@@ -4,6 +4,7 @@
       <v-card
         class="mx-auto"
         max-width="450"
+        min-width="300"
         outlined
       >
         <v-list-item three-line>
@@ -25,12 +26,14 @@
             tile
             size="80"
             color="grey"
-          ></v-list-item-avatar>
+          >
+          <v-img src="@/assets/avatar.jpg"></v-img>
+          </v-list-item-avatar>
         </v-list-item>
 
         <v-card-actions>
-          <v-btn text>Button</v-btn>
-          <v-btn text>Button</v-btn>
+          <v-btn href="https://www.linkedin.com/in/brunobcf/" text>Linkedin</v-btn>
+          <v-btn href="https://github.com/brunobcfum/" text>GitHub</v-btn>
         </v-card-actions>
       </v-card>
     </v-col>

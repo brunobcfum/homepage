@@ -8,7 +8,7 @@
       class="text-right"
       cols="12"
     >
-      {{ new Date().getFullYear() }} — <strong>Sauce code</strong>
+      © BrunoCF {{ new Date().getFullYear() }} — <a href="https://github.com/brunobcfum/homepage">Sauce code</a>
     </v-col>
   </v-footer>
 </template>

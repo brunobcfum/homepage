@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app dark dense floating>
   <v-app-bar-nav-icon @click="toggleMenu"></v-app-bar-nav-icon>
-  <v-toolbar-title class="grey--text">
+  <v-toolbar-title v-if="!drawer" class="grey--text">
     <span>bc</span>
     <span class="font-weight-bold">ferreira</span>
   </v-toolbar-title>
@@ -20,6 +20,9 @@ export default {
     toggleMenu () {
       this.$emit('toggleMenu')
     }
+  },
+  props: {
+    drawer: Boolean
   }
 }
 </script>

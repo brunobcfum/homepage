@@ -1,5 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <v-container fluid>
+    <v-row>
+      <v-col cols=12>
+        <strong>About</strong>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

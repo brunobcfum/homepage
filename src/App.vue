@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Navigation v-on:toggleMenu="toggleMenu" v-bind:drawer="drawer"></Navigation>
-    <Appbar v-on:toggleMenu="toggleMenu"></Appbar>
+    <Appbar v-on:toggleMenu="toggleMenu" v-bind:drawer="drawer"></Appbar>
     <v-content>
       <router-view/>
     </v-content>
@@ -22,7 +22,7 @@ export default {
     Appbar
   },
   data: () => ({
-    drawer: false
+    drawer: true
   }),
   methods: {
     toggleMenu () {
