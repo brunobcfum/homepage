@@ -1,6 +1,6 @@
 <template>
   <v-container>
-  <v-row align="center" justify="center">
+<!--   <v-row align="center" justify="center">
     <v-col cols=12>
       <v-card>
         <v-card-text>
@@ -10,7 +10,7 @@
         </v-card-text>
       </v-card>
     </v-col>
-  </v-row>
+  </v-row> -->
   </v-container>
 </template>
 

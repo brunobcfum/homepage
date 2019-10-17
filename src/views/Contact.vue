@@ -1,14 +1,19 @@
 <template>
   <v-container>
-    <Card/>
+    <v-row align="top" justify="center" no-gutters>
+      <CardUminho/>
+      <CardPersonal/>
+    </v-row>
   </v-container>
 </template>
 
 <script>
-import Card from '@/components/contact/Card'
+import CardUminho from '@/components/contact/CardUminho'
+import CardPersonal from '@/components/contact/CardPersonal'
 export default {
   components: {
-    Card
+    CardUminho,
+    CardPersonal
   }
 }
 </script>

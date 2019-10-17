@@ -1,32 +1,82 @@
 <template>
-  <v-card flat>
-    <v-card-text>
-      <p>
-        Morbi nec metus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Nunc sed turpis.
-      </p>
-
-      <p>
-        Suspendisse feugiat. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In hac habitasse platea dictumst. Fusce ac felis sit amet ligula pharetra condimentum.
-      </p>
-
-      <p>
-        Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nam commodo suscipit quam. In consectetuer turpis ut velit. Sed cursus turpis vitae tortor. Aliquam eu nunc.
-      </p>
-
-      <p>
-        Etiam ut purus mattis mauris sodales aliquam. Ut varius tincidunt libero. Aenean viverra rhoncus pede. Duis leo. Fusce fermentum odio nec arcu.
-      </p>
-
-      <p class="mb-0">
-        Donec venenatis vulputate lorem. Aenean viverra rhoncus pede. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Fusce commodo aliquam arcu. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi.
-      </p>
-    </v-card-text>
-  </v-card>
+  <v-flex>
+    <br>
+    <v-card
+      class="mx-auto"
+      elevation="3"
+      max-width="98%"
+    >
+      <v-list-item three-line>
+        <v-list-item-content>
+          <v-list-item-title class="headline mb-1">Mother Tongue</v-list-item-title>
+          <v-list-item-title class="title mb-1">Portuguese - Brazil</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+    </v-card>
+    <br>
+    <!-- ------------------------------------------------------------------------ -->
+    <v-col cols=12>
+      <v-data-table
+      hide-default-footer
+      :headers="headers"
+      :items="languages"
+      item-key="language"
+      class="elevation-1"
+      ></v-data-table>
+      <br>
+      <span class="overline text-center">Levels: A1 and A2: Basic user - B1 and B2: Independent user - C1 and C2: Proficient user</span>
+    </v-col>
+  </v-flex>
 </template>
 
 <script>
 export default {
-
+  data () {
+    return {
+      languages: [
+        {
+          language: 'English',
+          listening: 'C2',
+          reading: 'C2',
+          spokenInteraction: 'C2',
+          spokenProduction: 'C1',
+          writing: 'C1'
+        },
+        {
+          language: 'Swedish',
+          listening: 'B1',
+          reading: 'B1',
+          spokenInteraction: 'B1',
+          spokenProduction: 'B1',
+          writing: 'B1'
+        },
+        {
+          language: 'Norwegian (Bokmal)',
+          listening: 'A2',
+          reading: 'A2',
+          spokenInteraction: 'A2',
+          spokenProduction: 'A2',
+          writing: 'A2'
+        },
+        {
+          language: 'French',
+          listening: 'A1',
+          reading: 'A1',
+          spokenInteraction: 'A1',
+          spokenProduction: 'A1',
+          writing: 'A1'
+        }
+      ],
+      headers: [
+        { text: 'Language', value: 'language' },
+        { text: 'Listening', value: 'listening' },
+        { text: 'Reading', value: 'reading' },
+        { text: 'Spoken Interaction', value: 'spokenInteraction' },
+        { text: 'Spoken Production', value: 'spokenProduction' },
+        { text: 'Writing', value: 'writing' }
+      ]
+    }
+  }
 }
 </script>
 

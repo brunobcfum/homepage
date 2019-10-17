@@ -6,11 +6,13 @@
       <span class="font-weight-bold">ferreira</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-switch
-      dense
-      v-model="$vuetify.theme.dark"
-      label="Dark"
-    ></v-switch>
+    <v-toolbar-itens>
+      <v-switch
+        class="pt-6"
+        v-model="$vuetify.theme.dark"
+        label="Dark"
+      ></v-switch>
+    </v-toolbar-itens>
   </v-app-bar>
 </template>
 
