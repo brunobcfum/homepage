@@ -1,11 +1,12 @@
 <template>
   <v-row>
-    <v-col cols=4>
+    <v-col cols=6>
       <v-card
         class="mx-auto"
         max-width="450"
         min-width="300"
         outlined
+        elevation="3"
       >
         <v-list-item three-line>
           <v-list-item-content>

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container>
     <Card/>
   </v-container>
 </template>

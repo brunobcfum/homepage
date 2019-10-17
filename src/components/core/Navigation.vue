@@ -35,7 +35,7 @@
           <v-list-item-title>Contact</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click="openContact">
+    <v-list-item @click="openResume">
       <v-list-item-action>
           <v-icon>mdi-file-account</v-icon>
       </v-list-item-action>
@@ -101,6 +101,11 @@ export default {
     openHome () {
       this.$router.push({
         name: 'home'
+      })
+    },
+    openResume () {
+      this.$router.push({
+        name: 'resume'
       })
     }
   }

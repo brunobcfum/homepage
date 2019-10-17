@@ -1,7 +1,8 @@
 <template>
   <v-footer
-    absolute
     dense
+    inset="true"
+    app
     class="font-weight-this; overline"
   >
     <v-col
