@@ -3,6 +3,16 @@
     <v-card>
     <v-toolbar flat color="primary" dark>
       <v-toolbar-title>Resumé</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn
+        color="blue-grey"
+        class="ma-2 white--text"
+        href="/cv.pdf"
+        target="_blank"
+      >
+      Download CV
+      <v-icon right dark>mdi-cloud-download</v-icon>
+    </v-btn>
     </v-toolbar>
     <v-tabs vertical>
       <v-tab>
