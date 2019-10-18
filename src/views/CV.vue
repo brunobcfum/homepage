@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card>
-    <v-toolbar flat color="primary" dark>
+    <v-toolbar flat color="blue darken-4" dark>
       <v-toolbar-title>Resumé</v-toolbar-title>
     </v-toolbar>
     <v-tabs vertical>
