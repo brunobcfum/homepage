@@ -22,11 +22,13 @@ export default {
     Appbar
   },
   data: () => ({
-    drawer: true
+    drawer: false
   }),
   methods: {
     toggleMenu () {
       this.drawer = !this.drawer
+    },
+    mounted () {
     }
   }
 }

@@ -62,7 +62,7 @@
   </v-list>
   <template v-slot:append>
   <div class="pa-2">
-    <v-btn block>Send me a message</v-btn>
+    <v-btn block href="mailto:brunobcf@gmail.com">Send me a message</v-btn>
   </div>
   </template>
   </v-navigation-drawer>

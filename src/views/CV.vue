@@ -14,17 +14,17 @@
       <v-icon right dark>mdi-cloud-download</v-icon>
     </v-btn>
     </v-toolbar>
-    <v-tabs vertical>
+    <v-tabs>
       <v-tab>
-        <v-icon left>mdi-account</v-icon>
+        <v-icon left>mdi-account-tie</v-icon>
         Experience
       </v-tab>
       <v-tab>
-        <v-icon left>mdi-lock</v-icon>
+        <v-icon left>mdi-school</v-icon>
         Education
       </v-tab>
       <v-tab>
-        <v-icon left>mdi-access-point</v-icon>
+        <v-icon left>mdi-earth</v-icon>
         Language
       </v-tab>
       <v-tab-item>
