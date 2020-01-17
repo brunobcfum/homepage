@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Resume from './views/CV.vue'
+import Research from './views/Research.vue'
 import NotFound from './components/core/NotFound.vue'
 
 Vue.use(Router)
@@ -24,6 +25,11 @@ export default new Router({
       path: '/resume',
       name: 'resume',
       component: Resume
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: Research
     },
     {
       path: '/about',

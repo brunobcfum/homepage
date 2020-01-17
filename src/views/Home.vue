@@ -17,10 +17,10 @@
           <v-list-item-content>
             <div class="overline mb-4">SHORT BIO</div>
             <v-list-item-subtitle>
-              I am an Electrical Engineer who has been working in the high power field. After 10 years
+              I am an Electrical Engineer who has been working in the high power field. After 10+ years
               working with Control and Automation of Converter and Power substations, I took the decision
               to enroll in a Master’s Degree course in Computer Engineering to increase my knowledge
-              in IoT, Computer Networks and Advanced computing.
+              in IoT, Computer Networks and Advanced computing. Now I am a PhD candidate researcher at ENAC studing distributed computing with drones swarms.
             </v-list-item-subtitle>
             <v-list-item-text class="mt-4">
               <div class="overline mb-4">TECH INTERESTS</div>
@@ -44,8 +44,8 @@
             <v-list-item-text class="mt-4">
               <div class="overline mb-4">HOBBIES</div>
               <ul class="body-2 mb-4">
-                <li>Reading about technology, space, Sci-Fi and astronomy</li>
-                <li>Refactoring my old codes</li>
+                <li>Reading about technology, space and Sci-Fi</li>
+                <li>Refactoring my old personal projects</li>
                 <li>Fidelling with diverse micro-controllers such as diverse AVRs, ESP(8266 and 32) and nRF52840</li>
                 <li>Traveling</li>
               </ul>

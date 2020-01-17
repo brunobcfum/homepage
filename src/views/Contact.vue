@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CardUminho from '@/components/contact/CardUminho'
+import CardUminho from '@/components/contact/CardENAC'
 import CardPersonal from '@/components/contact/CardPersonal'
 export default {
   components: {

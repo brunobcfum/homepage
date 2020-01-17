@@ -40,7 +40,15 @@
           <v-icon>mdi-file-account</v-icon>
       </v-list-item-action>
       <v-list-item-content>
-          <v-list-item-title>Resumé</v-list-item-title>
+          <v-list-item-title>Curriculum vitæ</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-list-item @click="openResearch">
+      <v-list-item-action>
+          <v-icon>mdi-microscope</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+          <v-list-item-title>Research</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
 <!--     <v-list-item @click="openContact">
@@ -106,6 +114,11 @@ export default {
     openResume () {
       this.$router.push({
         name: 'resume'
+      })
+    },
+    openResearch () {
+      this.$router.push({
+        name: 'research'
       })
     },
     openAbout () {

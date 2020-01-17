@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
     <v-toolbar flat color="blue darken-4" dark>
-      <v-toolbar-title>Resumé</v-toolbar-title>
+      <v-toolbar-title>Curriculum vitæ</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
         color="blue-grey"
