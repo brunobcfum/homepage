@@ -6,7 +6,7 @@
         class="mx-auto"
         outlined
       >
-        <v-card-title>Master's Rearch Topic:</v-card-title>
+        <v-card-title>Master's Research Topic:</v-card-title>
         <v-list-item three-line>
           <v-list-item-content>
             <div class="overline mb-4">Dissertation title</div>
