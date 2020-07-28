@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Resume from './views/CV.vue'
 import Research from './views/Research.vue'
+import Papers from './views/Papers.vue'
 import NotFound from './components/core/NotFound.vue'
 
 Vue.use(Router)
@@ -30,6 +31,11 @@ export default new Router({
       path: '/research',
       name: 'research',
       component: Research
+    },
+    {
+      path: '/papers',
+      name: 'papers',
+      component: Papers
     },
     {
       path: '/about',

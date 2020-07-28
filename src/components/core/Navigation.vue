@@ -29,7 +29,7 @@
     </v-list-item>
     <v-list-item @click="openContact">
       <v-list-item-action>
-          <v-icon>mdi-contact-mail</v-icon>
+          <v-icon>mdi-email</v-icon>
       </v-list-item-action>
       <v-list-item-content>
           <v-list-item-title>Contacts</v-list-item-title>
@@ -51,14 +51,14 @@
           <v-list-item-title>Research</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-<!--     <v-list-item @click="openContact">
+    <v-list-item @click="openPapers">
       <v-list-item-action>
-          <v-icon>mdi-newspaper</v-icon>
+          <v-icon>mdi-book-open</v-icon>
       </v-list-item-action>
       <v-list-item-content>
           <v-list-item-title>Publications</v-list-item-title>
       </v-list-item-content>
-    </v-list-item> -->
+    </v-list-item>
     <v-list-item @click="openAbout">
       <v-list-item-action>
           <v-icon>mdi-help-circle</v-icon>
@@ -124,6 +124,11 @@ export default {
     openAbout () {
       this.$router.push({
         name: 'about'
+      })
+    },
+    openPapers () {
+      this.$router.push({
+        name: 'papers'
       })
     }
   }
