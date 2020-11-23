@@ -1,7 +1,7 @@
 <template>
   <v-footer
     dense
-    inset="true"
+    inset
     app
     class="font-weight-this; overline"
   >
@@ -9,7 +9,7 @@
       class="text-right"
       cols="12"
     >
-      © BrunoCF {{ new Date().getFullYear() }} — <a href="https://github.com/brunobcfum/homepage">Sauce code</a>
+      © BrunoCF {{ new Date().getFullYear() }} — <a href="https://github.com/brunobcfum/homepage">Fork me</a>
     </v-col>
   </v-footer>
 </template>

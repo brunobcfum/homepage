@@ -4,13 +4,13 @@
     app
     dark
     @transitionend="toggleMenu"
-    src="@/assets/background.jpg"
+    src="@/assets/background_purple.jpg"
   >
   <v-list dense>
 
     <v-list-item two-line>
       <v-list-item-title class="title">
-        <span >bc</span>
+        <span class="pink--text">bc</span>
         <span class="font-weight-bold">ferreira</span>
       </v-list-item-title>
       <v-list-item-avatar>
