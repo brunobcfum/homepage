@@ -1,10 +1,10 @@
 <template>
-  <v-app>
+  <v-app class="myFont">
     <Navigation v-on:toggleMenu="toggleMenu" v-bind:drawer="drawer"></Navigation>
     <Appbar v-on:toggleMenu="toggleMenu" v-bind:drawer="drawer"></Appbar>
-    <v-content>
+    <v-main>
       <router-view/>
-    </v-content>
+    </v-main>
     <Footer></Footer>
   </v-app>
 </template>
@@ -36,4 +36,9 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid');
+
+.myFont {
+  font-family: 'Roboto', cursive;
+}
 </style>
