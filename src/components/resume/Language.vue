@@ -60,11 +60,11 @@ export default {
         },
         {
           language: 'French',
-          listening: 'A1',
-          reading: 'A1',
-          spokenInteraction: 'A1',
-          spokenProduction: 'A1',
-          writing: 'A1'
+          listening: 'A2',
+          reading: 'A2',
+          spokenInteraction: 'A2',
+          spokenProduction: 'A2',
+          writing: 'A2'
         }
       ],
       headers: [

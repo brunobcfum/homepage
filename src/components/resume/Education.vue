@@ -9,6 +9,30 @@
     >
       <v-list-item three-line>
         <v-list-item-content>
+          <div class="overline mb-4">2020 - Now</div>
+          <v-list-item-title class="headline mb-1">PhD Degree</v-list-item-title>
+          <v-list-item-title class="title mb-1">Computer Science</v-list-item-title>
+          <v-list-item-subtitle>Institut National des sciences appliquées - Toulouse - France</v-list-item-subtitle>
+          <v-list-item-subtitle>École doctorale Systèmes</v-list-item-subtitle>
+          <v-list-item-subtitle>Ecole Nationale de l'Aviation Civile / Onera, The French Aerospace Lab</v-list-item-subtitle>
+        </v-list-item-content>
+
+        <v-img max-width="150" src="@/assets/enac_grande.jpg"></v-img>
+      </v-list-item>
+      <v-card-text>
+        <strong>Thesis: High Performance Scheduling and Load Balance Techniques for Distributed Systems in Dynamic Networks</strong>
+      </v-card-text>
+    </v-card>
+    <br>
+    <!-- ------------------------------------------------------------------------ -->
+    <v-card
+      class="mx-auto"
+      shaped
+      elevation="3"
+      max-width="98%"
+    >
+      <v-list-item three-line>
+        <v-list-item-content>
           <div class="overline mb-4">2017 - 2019</div>
           <v-list-item-title class="headline mb-1">Master's Degree</v-list-item-title>
           <v-list-item-title class="title mb-1">Informatics Engineering</v-list-item-title>

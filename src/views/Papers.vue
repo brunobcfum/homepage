@@ -6,7 +6,7 @@
     </v-toolbar>
 
     <v-card
-        class="mx-auto"
+        class="mx-auto mb-2 elevation-5"
         outlined
         v-for="paper in papers" :key="paper.id"
       >
