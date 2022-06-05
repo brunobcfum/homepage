@@ -2,8 +2,8 @@
   <v-app-bar app dark dense>
     <v-app-bar-nav-icon @click="toggleMenu"></v-app-bar-nav-icon>
     <v-toolbar-title v-if="!drawer" class="grey--text">
-      <span>bc</span>
-      <span class="font-weight-bold">ferreira</span>
+      <span class="light-green--text text--accent-2">./bc</span>
+      <span class="font-weight-bold light-green--text text--accent-2">ferreira</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>

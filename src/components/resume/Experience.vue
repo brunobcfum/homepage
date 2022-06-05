@@ -38,6 +38,7 @@
           <v-list-item-title class="title mb-1">EFACEC</v-list-item-title>
           <v-list-item-subtitle>Porto - Portugal</v-list-item-subtitle>
         </v-list-item-content>
+      <v-img max-width="150" src="@/assets/efacec.png"></v-img>
       </v-list-item>
       <v-card-text>
         <ul>
@@ -60,6 +61,7 @@
           <v-list-item-title class="title mb-1">ABB AS</v-list-item-title>
           <v-list-item-subtitle>Oslo - Norway</v-list-item-subtitle>
         </v-list-item-content>
+      <v-img max-width="150" src="@/assets/abb.png"></v-img>
       </v-list-item>
       <v-card-text>
         <ul>
@@ -181,6 +183,7 @@
           <v-list-item-title class="title mb-1">Axiom Eletronics</v-list-item-title>
           <v-list-item-subtitle>São Paulo - Brazil</v-list-item-subtitle>
         </v-list-item-content>
+      <v-img max-width="150" src="@/assets/axiom.png"></v-img>
       </v-list-item>
       <v-card-text>
         <ul>

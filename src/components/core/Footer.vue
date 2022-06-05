@@ -9,7 +9,7 @@
       class="text-right"
       cols="12"
     >
-      © BrunoCF {{ new Date().getFullYear() }} — <a href="https://github.com/brunobcfum/homepage">Fork me</a>
+      BrunoCF {{ new Date().getFullYear() }} — <a href="https://github.com/brunobcfum/homepage">Fork me</a>
     </v-col>
   </v-footer>
 </template>

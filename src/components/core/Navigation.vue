@@ -4,14 +4,14 @@
     app
     dark
     @transitionend="toggleMenu"
-    src="@/assets/background_purple.jpg"
+    src="@/assets/background.jpg"
   >
   <v-list dense>
 
     <v-list-item two-line>
       <v-list-item-title class="title">
-        <span class="pink--text">bc</span>
-        <span class="font-weight-bold">ferreira</span>
+        <span class="light-green--text text--accent-2">./bc</span>
+        <span class="font-weight-bold light-green--text text--accent-2">ferreira</span>
       </v-list-item-title>
       <v-list-item-avatar>
         <v-img src="@/assets/avatar.jpg"></v-img>
@@ -43,20 +43,20 @@
           <v-list-item-title>Curriculum vitæ</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
-    <v-list-item @click="openResearch">
-      <v-list-item-action>
-          <v-icon>mdi-microscope</v-icon>
-      </v-list-item-action>
-      <v-list-item-content>
-          <v-list-item-title>Research</v-list-item-title>
-      </v-list-item-content>
-    </v-list-item>
     <v-list-item @click="openPapers">
       <v-list-item-action>
           <v-icon>mdi-book-open</v-icon>
       </v-list-item-action>
       <v-list-item-content>
           <v-list-item-title>Publications</v-list-item-title>
+      </v-list-item-content>
+    </v-list-item>
+    <v-list-item @click="openResearch">
+      <v-list-item-action>
+          <v-icon>mdi-microscope</v-icon>
+      </v-list-item-action>
+      <v-list-item-content>
+          <v-list-item-title>Research</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
     <v-list-item @click="openAbout">
