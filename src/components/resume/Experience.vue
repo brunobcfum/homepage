@@ -9,7 +9,7 @@
     >
       <v-list-item three-line>
         <v-list-item-content>
-          <div class="overline mb-4">2020 - Now</div>
+          <div class="overline mb-4">2020 - 2023</div>
           <v-list-item-title class="headline mb-1">PhD Candidate</v-list-item-title>
           <v-list-item-title class="title mb-1">Computer Science</v-list-item-title>
           <v-list-item-subtitle>Institut National des sciences appliquées - Toulouse - France</v-list-item-subtitle>
