@@ -9,18 +9,42 @@
     >
       <v-list-item three-line>
         <v-list-item-content>
-          <div class="overline mb-4">2020 - Now</div>
+          <div class="overline mb-4">2023 - Now</div>
+          <v-list-item-title class="headline mb-1">Senior R&D Engineer</v-list-item-title>
+          <v-list-item-title class="title mb-1">Hitachi Energy</v-list-item-title>
+          <v-list-item-subtitle>Västerås - Sweden</v-list-item-subtitle>
+        </v-list-item-content>
+
+        <v-img max-width="150" src="@/assets/hitachi.png"></v-img>
+      </v-list-item>
+      <v-card-text>
+        <ul>
+          <li>R&D of Hitachi's MACH control and protection DRTOS. (C/C++, Yocto)</li>
+        </ul>
+      </v-card-text>
+    </v-card>
+    <br>
+     <!-- ------------------------------------------------------------------------ -->
+    <v-card
+      class="mx-auto"
+      shaped
+      elevation="3"
+      max-width="98%"
+    >
+      <v-list-item three-line>
+        <v-list-item-content>
+          <div class="overline mb-4">2020 - 2023</div>
           <v-list-item-title class="headline mb-1">PhD Candidate</v-list-item-title>
           <v-list-item-title class="title mb-1">Computer Science</v-list-item-title>
+          <v-list-item-subtitle>Ecole Nationale de l'Aviation Civile / Onera, The French Aerospace Lab</v-list-item-subtitle>
           <v-list-item-subtitle>Institut National des sciences appliquées - Toulouse - France</v-list-item-subtitle>
           <v-list-item-subtitle>École doctorale Systèmes</v-list-item-subtitle>
-          <v-list-item-subtitle>Ecole Nationale de l'Aviation Civile / Onera, The French Aerospace Lab</v-list-item-subtitle>
         </v-list-item-content>
 
         <v-img max-width="150" src="@/assets/enac_grande.jpg"></v-img>
       </v-list-item>
       <v-card-text>
-        <strong>Thesis: High Performance Scheduling and Load Balance Techniques for Distributed Systems in Dynamic Networks</strong>
+        <strong>Thesis: Modelling, Simulating and Emulating Distributed Applications in Swarms of Cyber-Physical Systems Deployed in Dynamic Networks</strong>
       </v-card-text>
     </v-card>
     <br>
@@ -42,7 +66,7 @@
       </v-list-item>
       <v-card-text>
         <ul>
-          <li>Maintenance of the ScateX# software which is a SCADA system for Network Management. (C++,Bash and Java)</li>
+          <li>R&D of the ScateX# software which is a SCADA system for Network Management. (C++,Bash and Java)</li>
         </ul>
       </v-card-text>
     </v-card>
