@@ -8,7 +8,7 @@
     <v-card
         class="mx-auto mb-2 elevation-5"
         outlined
-        v-for="paper in papers" :key="paper.id"
+        v-for="paper in orderedPapers" :key="paper.id"
       >
         <v-list-item three-line>
           <v-list-item-content>
@@ -58,6 +58,11 @@ export default {
     return {
       tab: null,
       papers
+    }
+  },
+  computed: {
+    orderedPapers: function () {
+      return this.papers.slice().sort((a, b) => a.id - b.id)
     }
   }
 }

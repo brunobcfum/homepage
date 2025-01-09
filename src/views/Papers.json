@@ -1,6 +1,6 @@
 [
   {
-    "id" : 0,
+    "id" : 7,
     "title" : "EAGP: An Energy-Aware Gossip Protocol for Wireless Sensor Networks",
     "authors" : "Bruno Chianca Ferreira, Vítor Fonte, João Marco C. Silva",
     "publisher" : "Softcom 2020",
@@ -8,7 +8,7 @@
     "abstract" : "In Wireless Sensor Networks (WSN), typically composed of nodes with resource constraints, leveraging efficient processes is crucial to enhance the network lifetime and, consequently, the sustainability in ultra-dense and heterogeneous environments, such as smart cities.\nParticularly, balancing the energy required to transport data efficiently across such dynamic environments poses significant challenges to routing protocol design and operation, being the trade-off of reducing data redundancy while achieving an acceptable delivery rate a fundamental research topic.\nIn this way, this work proposes a new energy-aware epidemic protocol that uses the current state of the network energy to create a dynamic distribution topology by self-adjusting each node forwarding behavior as eager or lazy according to the local residual battery. Simulated evaluations demonstrate its efficiency in energy consumption, delivery rate, and reduced computational burden when compared with classical gossip protocols as well as with a directional protocol."
   },
   {
-    "id" : 1,
+    "id" : 6,
     "title" : "MACE: A Mobile Ad-hoc Computing Emulation Framework",
     "authors" : "Bruno Chianca Ferreira, Guillaume Dufour, Guthemberg Silvestre",
     "publisher" : "Proceedings - International Conference on Computer Communications and Networks, ICCCN 2021",
@@ -16,7 +16,7 @@
     "abstract" : "Designing and deploying mobile applications for Edge/Fog environments is challenging. Previous studies have introduced simulation and emulation tools that can help to model new applications but fail to deliver an environment in which a system designer can emulate a realistic deployment of such applications. We propose the Mobile Ad-hoc Computing Framework (MACE) that provides features which facilitate and accelerate the development and testing of Edge/Fog applications. It also provides the nodes with mobility control that can be modelled or triggered by external applications, such as a flight simulator. With the included GUI, the user can plan deployment topologies, observe and interact with the nodes in real-Time. To demonstrate its functionalities, two experimental evaluations were performed: one comparing the network emulators and another with an off-The-shelf configuration service running in mobile nodes. Finally, the functionality of controlling mobility via an external application is also demonstrated."
   },
   {
-    "id" : 2,
+    "id" : 5,
     "title" : "Towards a Novel UAV Position Tracking and Reporting System for Very Low Level Airspace",
     "authors" : "Bruno Chianca Ferreira, Guillaume Dufour, Guthemberg Silvestre",
     "publisher" : "ERTS 2022 proceedings",
@@ -24,12 +24,28 @@
     "abstract" : "The integration of Unmanned Aircraft Systems into the airspace is a challenging, complex task for both operators and regulators. To ensure a safe and secure UAS integration, they should rely on wide variety of dependable subsystems , including a tracking and position reporting system. This paper proposes a system architecture for tracking and position reporting of UAS in very-low level airspace. The system leverages low-latency communications and distributed computing to offer highly available, consistent tracking information. Preliminary results suggest that our approach is especially useful for the traffic management and operations in densely populated areas."
   },
   {
-    "id" : 3,
+    "id" : 4,
     "title" : "A Lightweight Fluid Model for Mobile Ad hoc Distributed Systems",
     "authors" : "Bruno Chianca Ferreira, Guillaume Dufour, Guthemberg Silvestre",
     "publisher" : "IEEE Symposium on Computers and Communications (ISCC) 2022",
     "link" : "https://ieeexplore.ieee.org/document/9912980",
     "abstract" : "Emerging edge applications introduced new computing timevariant topologies with mobile nodes connected via ad hoc networks. Such topologies are fundamentally different from cloud infrastructures due to the lack of hierarchy and clear network function separation. Sometimes, nodes that are sources are also destinations and routers, hence, creating dynamic flow patterns traversing the network. The latter, thus, can change the average performance of a distributed system, such as throughput and latency. This work introduces an analytical model based on fluid quantities to study data flows of distributed systems in mobile ad hoc networks. Using an approach based on a network of queues with evenly distributed bandwidth over concurrent flows, this lightweight model enables fast, coarse-grained analysis of different distributed systems configurations. They enable the analysis of different topologies, mobility and data flow models with a small footprint. The model was implemented, validated and evaluated with stress workloads to confirm its accuracy. "
+  },
+  {
+    "id" : 3,
+    "title" : "Assessing Distributed Consensus Performance on Mobile Cyber-Physical System Swarms",
+    "authors" : "Jiayi Chen, Maxime Vacheron, Bruno Chianca Ferreira, Guthemberg Silvestre",
+    "publisher" : "2023 International Wireless Communications and Mobile Computing (IWCMC)",
+    "link" : "https://hal.science/hal-04402986/document",
+    "abstract" : "Mobile Cyber-Physical System (CPS) Swarms are likely to change our daily lives significantly in several application domains, including smart cities, space exploration, environmental monitoring, and transporting systems. Yet, industrial projects fundamentally rely on centralized communication infrastructures which in turn lead to suboptimal performance and limited autonomy for both sensing and actuating. To enhance communication and distributed coordination within the swarm, reliable distributed computing through consensus protocols constitutes a promising approach. Nonetheless, only a handful of studies has considered evaluating reliable distributed computing in Mobile CPS Swarms. The goal of this work is to evaluate the performance of consensus protocols on CPS swarms with processing units deployed on mobile nodes. Running on top of an emulation framework for mobile CPS, our preliminary evaluation focuses on evaluating three key deployment aspects of Mobile CPS Swarms executing a consensus protocol: the effective cost of mobility; the impact of the connectivity of nodes and the eventual network partitions; and the price of continuous routing updates in the mobile environment. Our experimental results indicate the transient network partition in mobile environments are common. They also suggest that the sparsity of dynamic communication network and continuous routing updates have a major impact on the performance of distributed consensus protocols."
+  },
+  {
+    "id" : 2,
+    "title" : "Cost-Effective Offloading Strategies for UAV Contingency Planning in Smart Cities",
+    "authors" : "Ching-Chi Lin, Bruno Chianca, Leonard David Bereholschi, Jian-Jia Chen, Guthemberg Silvestre",
+    "publisher" : "2023 32nd International Conference on Computer Communications and Networks (ICCCN)",
+    "link" : "https://ieeexplore.ieee.org/abstract/document/10230212",
+    "abstract" : "In the near future, smart cities are expected to become more prevalent, with Uncrewed Aerial Vehicles (UAVs) playing a key role in making cities more efficient and sustainable. Effective path planning is essential for the safe and efficient integration of drones into urban airspace. However, one potential limitation of UAVs is that they may not have sufficient computing power to perform real-time contingency planning when encountering obstacles. To address this challenge, this work proposes edge-assisted offloading scenarios where contingency planning is considered as a resource-intensive task that can be offloaded to nearby edge nodes. We implemented and compared various strategies for generating offloading plans in a robot swarm simulator based on latency and cost metrics. Our evaluation revealed that the offloading plans generated using the genetic algorithm tended to perform better in terms of average latency or cost per offloading, albeit with higher runtime overhead compared to the other strategies."
   }
 ]
 
