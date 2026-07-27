@@ -11,7 +11,8 @@
     "prepare": "nuxt prepare",
     "typecheck": "nuxt typecheck",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "deploy": "npm run generate && scp -r ./.output/public/. bruno@haab-jupiter:/home/bruno/apps/apache/apache_www/html/"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.12.1",

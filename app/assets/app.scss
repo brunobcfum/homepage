@@ -1,3 +1,47 @@
 // Fonts are now configured via @nuxt/fonts in nuxt.config.ts
 
 $body-font-family: 'Montserrat';
+
+// P1 green phosphor, as on a CRT terminal.
+//
+// The beam saturates the phosphor where it lands, so the glyph core reads
+// almost white and only the bloom around it is green. Pure #00FF00 at partial
+// opacity gives the opposite: a flat, washed-out green with no hot centre.
+// Four stacked shadows stand in for the falloff — tight core, halo, envelope.
+.phosphor-green {
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  color: #8dffab;
+  letter-spacing: 0.05em;
+  text-shadow:
+    0 0 1px rgba(190, 255, 210, 0.95),
+    0 0 6px rgba(45, 255, 120, 0.65),
+    0 0 18px rgba(0, 220, 80, 0.40),
+    0 0 40px rgba(0, 180, 60, 0.20);
+  animation: phosphor-flicker 6s infinite;
+}
+
+// The beam never holds perfectly steady. A brightness wobble this small is
+// not consciously visible, but without it the glow reads as a static effect.
+@keyframes phosphor-flicker {
+  0%, 46%, 49%, 75%, 77%, 100% { opacity: 1; }
+  47.5% { opacity: 0.86; }
+  76% { opacity: 0.93; }
+}
+
+.phosphor-cursor::after {
+  content: '\2588';
+  margin-left: 0.15em;
+  animation: phosphor-blink 1.2s steps(1) infinite;
+}
+
+@keyframes phosphor-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phosphor-green,
+  .phosphor-cursor::after {
+    animation: none;
+  }
+}

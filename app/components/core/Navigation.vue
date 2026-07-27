@@ -10,7 +10,7 @@
     <v-list-item two-line class="ma-3">
       <v-list-item-title class="text-h6">
         <span class="phosphor-green">./bc</span>
-        <span class="font-weight-bold phosphor-green">ferreira</span>
+        <span class="font-weight-bold phosphor-green phosphor-cursor">ferreira</span>
       </v-list-item-title>
       <template #append>
         <v-avatar size="small">
@@ -104,10 +104,5 @@ onMounted(() => {
 </script>
 
 <style>
-
-  .phosphor-green {
-    color: #00ff0094;
-    text-shadow: 0 0 5px #00FF00;
-  }
-
+/* .phosphor-green lives in assets/app.scss — it is shared with Appbar.vue */
 </style>

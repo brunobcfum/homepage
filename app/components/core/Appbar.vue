@@ -1,9 +1,9 @@
 <template>
   <v-app-bar app theme="dark" density="compact">
     <v-app-bar-nav-icon @click="toggleMenu"></v-app-bar-nav-icon>
-    <v-toolbar-title v-if="!drawer" class="grey--text">
+    <v-toolbar-title v-if="!drawer">
         <span class="phosphor-green">./bc</span>
-        <span class="font-weight-bold phosphor-green">ferreira</span>
+        <span class="font-weight-bold phosphor-green phosphor-cursor">ferreira</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>
